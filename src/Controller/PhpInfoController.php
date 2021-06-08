@@ -10,9 +10,9 @@ use Symfony\Component\HttpFoundation\Response;
 class PhpInfoController extends AbstractController
 {
     /**
-     * @return Response
+     * @Oro\Bundle\SecurityBundle\Annotation\AclAncestor("oro_config_system")
      *
-     * @Oro\Bundle\SecurityBundle\Annotation\AclAncestor("oro_config_system"))
+     * @return \Symfony\Component\HttpFoundation\Response
      */
     public function indexAction(): Response
     {
