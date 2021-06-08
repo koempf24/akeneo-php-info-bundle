@@ -1,0 +1,5 @@
+---
+koempf_phpinfo:
+    path: /phpinfo
+    controller: Koempf\PhpInfoBundle\Controller\PhpInfoController:indexAction
+    methods: [GET]

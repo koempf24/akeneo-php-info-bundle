@@ -1,0 +1,27 @@
+{
+    "name": "koempf/akeneo-php-info-bundle",
+    "description": "Simple /phpinfo controller",
+    "keywords": [
+        "akeneo",
+        "phpinfo",
+        "pim"
+    ],
+    "type": "library",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lars Malach",
+            "email": "lam@koempf24.de",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "akeneo/pim-community-dev": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Koempf\\PhpInfoBundle\\": "src/"
+        }
+    }
+}
